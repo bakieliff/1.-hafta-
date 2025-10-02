@@ -1,0 +1,37 @@
+<html> 
+<head> 
+<title> </title> 
+</head> 
+<body> 
+<font face="tahoma" size="5" color="red">NELER ÖĞRENDİK? </font> 
+<dl> 
+<dt><font face="tahoma" size="4" color="blue">Sıralı listeler </font> 
+<dd><font face="tahoma" size="2" color="black">liste içine alınacak metinler <b>&lt;ol&gt; … &lt;/ol&gt;</b> etiketleri 
+arasına alınarak yazılır. Bu etiketler listenin başladığını ve bittiğini gösterir. Listenin maddelerinin 
+başına <b>&lt;li&gt;</b> (list item) etiketi getirilir. Bu etiket kapatılmaz. <br>
+Ol etiketinin alt parametreleri olan:<br>
+Type: listenin rakamla mı harfle mi başlayacağını söyler. <br>
+Start: ise hangi rakam ya da harfle başlayacağını belirtir. <br>
+Compact parametresi: listenin mümkün olduğunca minimum satır aralığına sahip olmasını sağlar. 
+</font> 
+
+<dt><font face="tahoma" size="4" color="blue">Sırasız listeler </font> 
+<dd><font face="tahoma" size="2" color="black">Bu tip listelerde de mantık aynıdır. Yalnız burada 
+rakam ve harf yerine küçük daire ve kareler kullanılır. Etiket olarak <b>&lt;ul&gt; … &lt;/ul&gt;</b> kullanılır. <br>
+Liste maddeleri için yine <b>&lt;li&gt;</b> etiketi kullanılır. Type parametresi olarak maddenin şeklini gösteren 
+parametre <b>type</b> parametresidir. Bu parametre 3 değişik şekilde kullanılabilir:<br>
+1) type="circle" → içi boş daire <br>
+2) type="square" → içi dolu kare <br>
+3) type="disc" → içi dolu daire 
+</font> 
+
+<dt><font face="tahoma" size="4" color="blue">Tanımlama listeleri </font> 
+<dd><font face="tahoma" size="2" color="black">Bu listelemede madde başlarında işaret kullanılmaz, 
+sadece her maddenin başlığı ile gövdesi birbirinden ayrılarak yazılır. Bu tip bir listeleme için 
+<b>&lt;dl&gt; … &lt;/dl&gt;</b> etiketleri kullanılır. Maddelerin başlığını göstermek için 
+<b>&lt;dt&gt;</b> (definition term), <b>&lt;dd&gt;</b> maddenin gövdesini oluşturur. <br>
+Madde başlıklarını ve gövdesini farklı fontlarda yazmak için font etiketi kullanılmalıdır. 
+</font> 
+</dl> 
+</body> 
+</html>
